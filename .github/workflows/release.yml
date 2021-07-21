@@ -13,7 +13,7 @@ jobs:
           git config --global user.name 'Biosimulations-Daemon'
           git config --global user.email 'biosimulationsdaemon@gmail.com'
 
-      - uses: actions/setup-node@v2.2.0
+      - uses: actions/setup-node@v2.3.0
         with:
           node-version: "12"
       - run: npm ci
